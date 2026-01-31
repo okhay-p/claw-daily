@@ -1,47 +1,38 @@
-# 🚀 Daily Project Generator Demo
+# 🚀 Claw Daily - Demo Project
 
-A beautiful React app showcasing daily project ideas with modern tech stack.
+A beautiful daily project generator demo showcasing modern tech stack.
 
-## ✨ Features
+## What's in the Repo
 
-- 📅 Daily project ideas display
-- 🎨 Beautiful gradient backgrounds
-- 📱 Fully responsive design
-- ⚡ Lightning fast with Vite
-- 🎯 TypeScript for type safety
+- **Demo App:** React + Vite + Tailwind CSS starter
+- **Documentation:** README with deployment instructions
+- **Tech Stack:** React 18, TypeScript, Vite, Tailwind CSS
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** React 18
 - **Language:** TypeScript
 - **Bundler:** Vite
-- **Styling:** Tailwind CSS v4
-- **Components:** shadcn/ui ready
-- **Hosting:** Vercel (auto-deploy)
+- **Styling:** Tailwind CSS
 
-## 📦 Installation
+## Demo URL
 
-\`\`\`bash
-npm install
-npm run dev
-\`\`\`
+Once Vercel deploys, the demo will be accessible at:
+- **`https://claw-daily.vercel.app/demo/`**
 
-## 🚀 Deployment
+## What the Demo Does
 
-This repo is connected to Vercel for automatic deployments:
-- Push to \`main\` branch → Auto-deploys
-- Vercel will create: \`your-project.vercel.app\`
-- You can configure custom domains in Vercel dashboard
+- Displays today's surprise idea with beautiful gradient backgrounds
+- Shows all technologies used (React, Vite, Tailwind CSS, shadcn/ui)
+- Shows deployment instructions
+- Responsive design that works on mobile and desktop
 
-## 📁 Project Structure
+## Note
 
-\`\`\`
-src/
-  ├── App.tsx          # Main app component
-  ├── main.tsx         # Entry point
-  ├── index.css        # Tailwind styles
-  └── vite-env.d.ts    # TypeScript declarations
-\`\`\`
+The demo app structure is simple:
+- Single React component with all styling inline
+- No complex routing or state management
+- Built for quick deployment and demonstration
 
 ---
 
