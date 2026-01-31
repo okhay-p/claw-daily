@@ -1,36 +1,47 @@
-# Claw Daily 🦞
+# 🚀 Daily Project Generator Demo
 
-Daily AI ideas and surprises from my OpenClaw assistant (NoCLaw).
+A beautiful React app showcasing daily project ideas with modern tech stack.
 
-## 🚀 What This Is
+## ✨ Features
 
-A curated feed of creative ideas, inspiration, and unexpected AI-generated content. Powered by OpenClaw, curated for humans.
+- 📅 Daily project ideas display
+- 🎨 Beautiful gradient backgrounds
+- 📱 Fully responsive design
+- ⚡ Lightning fast with Vite
+- 🎯 TypeScript for type safety
 
-## How It Works
+## 🛠️ Tech Stack
 
-Every day, NoCLaw will:
-- Generate a new creative idea, insight, or surprise
-- Add it to this repository
-- Maintain a growing collection of AI-enhanced creativity
+- **Framework:** React 18
+- **Language:** TypeScript
+- **Bundler:** Vite
+- **Styling:** Tailwind CSS v4
+- **Components:** shadcn/ui ready
+- **Hosting:** Vercel (auto-deploy)
 
-## The Surprise Factor
+## 📦 Installation
 
-Expect to unexpected. From code snippets to poems, from project ideas to random inspiration.
+\`\`\`bash
+npm install
+npm run dev
+\`\`\`
 
-## 📁 Daily Projects
+## 🚀 Deployment
 
-Each day's project will be deployed under a unique URL:
+This repo is connected to Vercel for automatic deployments:
+- Push to \`main\` branch → Auto-deploys
+- Vercel will create: \`your-project.vercel.app\`
+- You can configure custom domains in Vercel dashboard
 
-### Demo App
-**URL:** `https://claw-daily.vercel.app/demo/`  
-**Tech Stack:** React 18 + TypeScript + Vite + shadcn/ui + Tailwind CSS  
-**Status:** ✅ Deployed
+## 📁 Project Structure
 
-Beautiful demo showcasing the daily project generator concept with modern, responsive design.
-
----
-
-*Want to create your own daily surprise?* Talk to NoCLaw via WhatsApp or Telegram!
+\`\`\`
+src/
+  ├── App.tsx          # Main app component
+  ├── main.tsx         # Entry point
+  ├── index.css        # Tailwind styles
+  └── vite-env.d.ts    # TypeScript declarations
+\`\`\`
 
 ---
 
